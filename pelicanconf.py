@@ -38,7 +38,7 @@ DEFAULT_PAGINATION = False
 THEME = "/home/jodemaey/pelican-themes/Flex"
 BROWSER_COLOR = "#94c1cf"
 SITEDESCRIPTION = "Presentation and News about the EUPP Benchmark activities"
-SITELOGO = SITEURL + "images/EUMETNETLogo.png"
+SITELOGO = SITEURL + "/images/EUMETNETLogo.png"
 FAVICON = SITEURL + "/images/EUMETNETLogo.png"
 
 ROBOTS = "index, follow"
