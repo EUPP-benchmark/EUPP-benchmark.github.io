@@ -18,6 +18,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
+    ("News", SITEURL + "news.html"),
     ("Datasets documentation", "https://eupp-benchmark.github.io/EUPPBench-doc/"),
     # ("Pelican", "https://getpelican.com/"),
     # ("Python.org", "https://www.python.org/"),
@@ -87,3 +88,6 @@ THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
 GITHUB_CORNER_URL = "https://github.com/EUPP-benchmark"
+
+# move the original article index elsewhere:
+INDEX_SAVE_AS = 'news.html'
