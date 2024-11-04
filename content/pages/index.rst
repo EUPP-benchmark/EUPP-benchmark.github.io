@@ -7,12 +7,15 @@ The EUMETNET EUPP Benchmark
 :save_as: index.html
 :page-order: 0000
 
-**Work in progress, be patient !**
+**This website is under construction, more will come, be patient !**
 
 This website is the home of the EUPP Benchmark. The Benchmark is an important deliverable of the
 `EUMETNET <https://www.eumetnet.eu>`_ PP module,
 aiming to provide high-quality benchmark datasets and infrastructures to compare the various methods used to
 `post-process <{filename}/pages/postprocessing.rst>`_ the forecasts in National Meteorological Services.
+Indeed, the need to postprocess different types of forecasts is a challenges that all Weather Centers are currently facing,
+in order to provide consistent and reliable forecasts in a seamless fashion.
+
 The format of the benchmark was discussed and drafted at the December 2019 PP module workshop.
 The main idea and goal emerging at this workshop was to try to automate it progressively as much as possible,
 with multiple different aspects of postprocessing being treated, in a modular fashion.

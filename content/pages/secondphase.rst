@@ -5,4 +5,4 @@ EUPP Benchmark second phase
 :summary: Benchmark second phase
 :page-order: 0030
 
-TODO
+The second phase is under preparation/discussion.
