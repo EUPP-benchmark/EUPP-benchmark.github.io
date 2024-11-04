@@ -18,8 +18,8 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("News", SITEURL + "news.html"),
     ("Datasets documentation", "https://eupp-benchmark.github.io/EUPPBench-doc/"),
+    ("News", SITEURL + "news.html"),
     # ("Pelican", "https://getpelican.com/"),
     # ("Python.org", "https://www.python.org/"),
     # ("Jinja2", "https://palletsprojects.com/p/jinja/"),
@@ -94,3 +94,8 @@ INDEX_SAVE_AS = 'news.html'
 
 # ordering page
 PAGE_ORDER_BY = "page-order"
+
+# news path
+ARTICLE_PATHS = ['news']
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
+ARTICLE_URL = '{date:%Y}/{slug}.html'
