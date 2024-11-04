@@ -36,7 +36,7 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-THEME = "/home/jodemaey/pelican-themes/Flex"
+THEME = "/home/jodemaey/pelican-themes/website-pelican-theme"
 BROWSER_COLOR = "#94c1cf"
 SITEDESCRIPTION = "Presentation and News about the EUPP Benchmark activities"
 SITELOGO = SITEURL + "/images/EUMETNETLogo.png"
@@ -87,3 +87,5 @@ THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
 GITHUB_CORNER_URL = "https://github.com/EUPP-benchmark"
+
+PAGE_ORDER_BY = "page-order"
