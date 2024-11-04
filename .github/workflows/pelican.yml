@@ -13,6 +13,6 @@ jobs:
     with:
       settings: "publishconf.py"
       requirements: "pelican[markdown] typogrify"
-      theme: "-b eupp https://github.com/EUPP-benchmark/website-pelican-theme.git"
+      theme: "https://github.com/EUPP-benchmark/website-pelican-theme.git"
       python: "3.10"
 
