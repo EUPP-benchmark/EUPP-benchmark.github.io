@@ -5,6 +5,7 @@ The EUMETNET EUPP Benchmark
 :summary: EUPP Benchmark main page
 :status: hidden
 :save_as: index.html
+:page-order: 0000
 
 **Work in progress, be patient !**
 
@@ -22,7 +23,7 @@ using station observations and reforecasts at the nearest point.
 `The second phase (2024-2028) <{filename}/pages/secondphase.rst>`_ just started and will focus on gridded postprocessing for which gridded observations,
 forecasts and reforecasts are needed.
 
-During both phases, `datasets <{filename}/pages/datasets.rst>`_ were or are created according to opendata standards to make the comparison of postprocessing methods possible.
+During both phases, `datasets <{filename}/pages/datasets.rst>`_ were/are created according to opendata standards to make the comparison of postprocessing methods possible.
 These datasets are shared freely with the community.
 
 The activities of the benchmark are developed on GitHub: https://github.com/orgs/EUPP-benchmark/
