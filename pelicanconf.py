@@ -37,7 +37,7 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-THEME = "/home/jodemaey/pelican-themes/Flex"
+THEME = "/home/jodemaey/pelican-themes/website-pelican-theme"
 BROWSER_COLOR = "#94c1cf"
 SITEDESCRIPTION = "Presentation and News about the EUPP Benchmark activities"
 SITELOGO = SITEURL + "/images/EUMETNETLogo.png"
@@ -91,3 +91,6 @@ GITHUB_CORNER_URL = "https://github.com/EUPP-benchmark"
 
 # move the original article index elsewhere:
 INDEX_SAVE_AS = 'news.html'
+
+# ordering page
+PAGE_ORDER_BY = "page-order"
