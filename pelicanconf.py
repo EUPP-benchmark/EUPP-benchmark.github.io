@@ -10,19 +10,22 @@ TIMEZONE = 'Europe/Rome'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+# FEED_ALL_ATOM = None
+# CATEGORY_FEED_ATOM = None
+# TRANSLATION_FEED_ATOM = None
+# AUTHOR_FEED_ATOM = None
+# AUTHOR_FEED_RSS = None
+
+# Feed Items
+FEED_MAX_ITEMS = 15
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+
 
 # Blogroll
 LINKS = (
     ("Datasets documentation", "https://eupp-benchmark.github.io/EUPPBench-doc/"),
-    # ("Pelican", "https://getpelican.com/"),
-    # ("Python.org", "https://www.python.org/"),
-    # ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    # ("You can modify those links in your config file", "#"),
+    ("News", SITEURL + "news.html"),
 )
 
 # Social widget
@@ -88,4 +91,13 @@ THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
 GITHUB_CORNER_URL = "https://github.com/EUPP-benchmark"
 
+# move the original article index elsewhere:
+INDEX_SAVE_AS = 'news.html'
+
+# ordering page
 PAGE_ORDER_BY = "page-order"
+
+# news path
+ARTICLE_PATHS = ['news']
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
+ARTICLE_URL = '{date:%Y}/{slug}.html'
