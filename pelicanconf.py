@@ -25,7 +25,7 @@ CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 # Blogroll
 LINKS = (
     ("Datasets documentation", "https://eupp-benchmark.github.io/EUPPBench-doc/"),
-    ("News", SITEURL + "news.html"),
+    # ("News", SITEURL + "news.html"),
 )
 
 # Social widget
