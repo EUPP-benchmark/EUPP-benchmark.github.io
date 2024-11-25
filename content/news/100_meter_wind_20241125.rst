@@ -1,0 +1,28 @@
+100 meters wind gridded observations get added to the datasets
+==============================================================
+
+:date: 2024-04-30 11:20
+:author: Jonathan Demaeyer
+:summary: 100 meters wind gridded observations get added to the base and the EUPPBench datasets, allowing to investigate postprocessing for the renewables, in particular over the North Sea.
+:slug: 100m-wind-news
+:tags: dataset
+:category: dataset
+
+Thanks to the efforts of Joris Van den Bergh and Ruoke Meng from the `Royal Meteorological Institute of Belgium <https://www.meteo.be>`_, 100 meters *u* and *v* wind fields gridded observations
+have been added to the `base dataset <{filename}../pages/datasets.rst#base>`_ and the `EUPPBench dataset <{filename}../pages/datasets.rst#eupp>`_.
+
+Indeed, these gridded observations were not provided with the first version of the dataset, while they are certainly useful for the postprocessing of
+variables important for the renewable energy production, especially for the wind farms lying in the North Sea.
+
+As for the rest of the dataset, the provided gridded observations are based on the `ERA5 gridded reanalysis <https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5>`_.
+These fields are already available online, and will be available in the next release of the dataset on `Zenodo <https://zenodo.org/>`_.
+
+See below an example of what can be plotted with these new data:
+
+.. figure:: /images/eupp_100u.png
+    :align: center
+    :alt: An example of deterministic IFS forecast for 100m u wind and the corresponding gridded observations in the EUPPBench dataset.
+
+    An example of deterministic IFS forecast for 100m *u* wind and the corresponding gridded observations in the EUPPBench dataset.
+
+
