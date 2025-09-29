@@ -1,0 +1,24 @@
+RenEUCast25: Joint Workshop on Postprocessing, Forecasting and Nowcasting for Renewable Energy
+==============================================================================================
+
+:date: 2025-09-29 18:00
+:author: Jonathan Demaeyer
+:summary: The RenEUCast Workshop will take place 8-10 December 2025 in Brussels and will be dedicated to providing useful forecasts and nowcasts to European renewable energy stakeholders.
+:slug: reneucast25
+:tags: workshop, renewables
+:category: workshop
+
+.. figure:: /images/RenEUCast25.png
+    :align: center
+    :alt: The RenEUCast fliers with the support of the event: RMI, Geosphere Austria, Belspo, EUMETNET and VUB-ETRO.
+
+It is our great pleasure to announce the RenEUCast scientific Workshop taking place 8-10 December 2025 in Brussels.
+This event will bring together experts from different fields and backgrounds for the exchange of knowledge and experiences focused on forecasting for the renewable energy sector.
+The central theme of this event is providing useful forecasts and nowcasts to European renewable energy stakeholders, who are also invited to the workshop, and to foster a better understanding of how end users make use of forecasts and nowcasts in their decision making.
+
+This event, held at the `Vrije Universteit <https://www.vub.be/en>`_ Brussel, is supported and funded by the European Meteorological Network SNC (`EUMETNET <https://www.eumetnet.eu/>`_) and the Belgian Science Policy Office (`Belspo <https://www.belspo.be/>`_).
+
+For details, registration and call for abstracts, please follow the link: https://events.spacepole.be/e/RenEUCast25
+
+Questions and requests for information can be addressed to the organizing committee: `De Cruz, Lesley <mailto:lesley.decruz@meteo.be>`_ (RMI-VUB); `Demaeyer, Jonathan <mailto:jodemaey@meteo.be>`_; `Van den Bergh, Joris <mailto:joris.vandenbergh@meteo.be>`_; `Vannitsem, Stéphane <mailto:svn@meteo.be>`_ (RMI); Schicker, Irene; Schmid, Franziska (GeoSphere Austria)
+
